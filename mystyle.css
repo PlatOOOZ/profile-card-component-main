@@ -1,0 +1,128 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    /*background-image: url('./images/pattern-background-mobile.svg');*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+  }
+  #main-div{
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      margin-right: 0;
+      margin: 10%;
+      background-color:white ;
+      width:80%;
+       
+  }
+  #mid-div{
+      text-align: center;
+      font-family: 'Red Hat Display', sans-serif;
+      padding-top: 10%;
+      padding-left: 5%;
+      padding-right: 5%;
+      opacity: 0.8;
+
+      
+  }
+  #third-div{
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      margin-top: 10%;
+      margin-bottom: 10%;
+      margin-left: 10%;
+      margin-right: 10%;
+      background-color: hsl(225, 100%, 98%);
+      border-radius: 12px;
+  }
+  #sub-div{
+      display: flex;
+      flex-direction: column;
+      margin:5%;
+      width:50%;
+  }
+#last-div{
+    display: flex;
+    flex-direction: column;
+}
+#music{
+
+    width: 20% ;
+    height: 20%;
+}
+#third-div a{
+    align-self: center;
+    font-weight: 700;
+    padding-right: 7%;
+}
+#third-div img{
+    align-self: center;
+    padding-left: 7%;
+}
+#dance{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#mid-div h1{
+    font-weight: 900;
+}
+p{
+    margin-top: 5%;
+    line-height: 1.5rem;
+    opacity: 0.6;
+    font-weight: 500;
+    
+}
+button{
+    width:80%;
+    align-self: center;
+    padding: 3%;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-bottom: 5%;
+    font-weight: 700;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#order{
+    align-self: center;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+    margin-bottom: 5%;
+    font-weight: 700;
+    color: inherit !important;
+    opacity: 0.6;
+
+}
+
+@media (min-width:600px) {
+    body{
+        background-image: url('./images/pattern-background-mobile.svg');
+    }
+    #main-div{
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        width: 30%;
+    }
+    #third-div a:hover{
+        text-decoration: none;
+        color: hsl(224, 23%, 55%);
+    }
+    button:hover{
+        background-color: hsl(224, 23%, 55%);
+    }
+    #order:hover{
+        opacity: 1;
+    }
+}
